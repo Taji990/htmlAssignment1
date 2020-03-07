@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:dimgrey;
+    background-attachment: scroll;
+}
+nav {
+    background-color: #728B96;
+  }
+header a {
+    text-decoration: red;
+    color: rgb(255, 0, 0);
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 1em;
+   }
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+}
+nav {
+    padding: 0.15em;
+   }
+h1 {
+    font-size: 4em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+}
+h2 {
+    font-size: 4em;
+    color: rgb(255,0,0);
+    text-align: center;
+}
+.imge{
+    display: table-cell;
+     margin: 10px auto 20px;
+     height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+    vertical-align:middle;
+}
+ tr:nth-child(even)
+{background-color: red;}
+tr:nth-child(odd)
+{background-color: blue;}
+p {
+    font-size: 2em;
+    text-align:center;
+    font-family: sans-serif;
+    position:static;
+    top: 20%;
+    left: 0%;
+    transform: translateY(4cm);
+    color: red;
+}
+.riddell
+{
+    font-size: 2em;
+    text-align:center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    color: navajowhite;
+}
+table {
+    	 position: absolute;
+    display: block;
+  
+    color: white;
+    margin-left:46%;
+    top:40%;
+}

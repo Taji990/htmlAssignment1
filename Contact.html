@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Contact Us</title>
+            <meta charset = "UTF-8">
+            <meta name = "description" content="Contact Us">
+            <meta name= "keywords" content="HTML, CSS, Personal Information" >
+            <meta name= "Author" content= "Sidhant Kaushik and Sartaj Tiwana">
+            <link rel="stylesheet" href="contact.css">
+            <link rel ="icon" type="image/jpg" href="images/icon.png">
+        </head>
+        <body style="background-image: url(images/cars.jpg)">
+            <figure>
+                    <img src="images/icon.png" alt="" Title="Tesla" width=80 />
+                    <br/>
+            </figure>
+            <!-- sends to email-->
+            <form action= "mailto:taji.tiwana@gmail.com" method="post" enctype="text/plain">
+            <input type="hidden" name="subject" value="Name">
+            <p>
+                <br/>
+            <fieldset>
+                <legend>Personal information</legend>
+                <p>
+                     Abbreviation
+                        <br/>
+                    <label>
+                    <input type="radio" name="Abbreviation" value="Mr" checked>Mr</label>
+                        <br> <label><input type="radio" name="Abbreviation" value="Ms"> Ms</label><br> 
+                        <label><input type="radio" name="Abbreviation" value="Mrs"> Mrs</label>
+                    
+                    
+                </p>
+				<p>
+					<label> *Name:
+							<input name="fullname" type="text" size="25" value="" maxlength="25" required="" placeholder="ex.John">
+					</label>
+                </p>
+                <p>
+                    <label> *Email:
+                        <input name="email" type="email" size="35" required="" placeholder="john_roberto@gmail.com" maxlength="35">
+                    </label>
+                </p>
+                <p>
+                    <label> Phone:
+                        <input name="telephone" type="tel" size="25" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20">
+                    </label>
+                </p>
+                <p>
+                    <label style="vertical-align: top;"> *Description: </label>
+                    <textarea id= "description" required ="" rows="4" cols="70" placeholder="Enter a brief description of your case here."></textarea>
+                </p>
+                <p>
+                    <label>Sales</label>
+                    <input name="options" type="checkbox" value="Sales">
+                    <label>Finance</label>
+                    <input name="options" type="checkbox" value="Finance">
+                    <label>Customer Support</label>
+                    <input name="options" type="checkbox" value="Customer Support">
+                </p>
+                <p>
+                    <label>*Date Contacted</label>
+                    <input name="date" type="date" required="">
+                </p>
+                <p>
+                    *Required Fields
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear"> 
+                </p>
+            </fieldset>
+            <hr/>
+                </form>
+        </body>
+</html>

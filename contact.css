@@ -1,0 +1,26 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+figure {
+    padding: 5px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+   }
+p1 {
+    float: right;
+}
+legend{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+label{
+    font-family: 'Times New Roman';
+    color: white;
+}
+p{
+    font-size: 16px;
+    color: white;
+}
